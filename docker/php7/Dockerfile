@@ -1,4 +1,4 @@
-FROM php:7.3-fpm
+FROM php:7.3-fpm@sha256:2d68e401d2d3b9f8a6572791cd7a25062450c43ff52e58391146809741ad0885
 
 RUN apt-get -y update
 RUN curl -L -C - --progress-bar -o /usr/local/bin/composer https://getcomposer.org/composer.phar
